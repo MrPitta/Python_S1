@@ -8,10 +8,14 @@ print("")
 print("¿Qué operación desea realizar?\n")
 
 def Menu():
-    print("opciones: 1=suma | 2=resta | 3=multiplicación | 4=division \n")
-
+    print("opciones:\n")
+    print("-1=suma\n")
+    print("-2=resta\n")
+    print("-3=multiplicacion\n")
+    print("-4=division\n")
 Menu()
 opcion=int(input("Ingrese su opcion\n>"))
+print(" ")
 
 while opcion != 0:
     if opcion == 1:
@@ -35,3 +39,4 @@ while opcion != 0:
 
         Menu()
         opcion=int(input("Ingrese su opcion\n>"))
+        print(" ")
