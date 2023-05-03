@@ -43,8 +43,4 @@ while opcion != 0:
         Menu()
         opcion=int(input("Ingrese su opcion\n>"))
         print(" ")
-print("Desea realizar otra operacion?\n>")
-opcionop=int(input("1=Si | 2=No"))
-while opcionop !=0:
-    if opcionop == 1:
-        Calcular()
+

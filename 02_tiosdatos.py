@@ -1,0 +1,1 @@
+print(type("conjunto_vacio1"))
